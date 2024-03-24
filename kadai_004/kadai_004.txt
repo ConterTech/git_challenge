@@ -1,2 +1,29 @@
-5ea85c4 (HEAD -> main) 日本語訳を追記
+5 C:\Users\ayust\OneDrive\デスクトップ\侍エンジニア> cd git_challenge
+PS C:\Users\ayust\OneDrive\デスクトップ\侍エンジニア\git_challenge> git init
+Initialized empty Git repository in C:/Users/ayust/OneDrive/繝・せ繧ｯ繝医ャ繝・萓阪お繝ｳ繧ｸ繝九い/git_challenge/.git/       
+PS C:\Users\ayust\OneDrive\デスクトップ\侍エンジニア\git_challenge> git add hello_world.txt
+PS C:\Users\ayust\OneDrive\デスクトップ\侍エンジニア\git_challenge> git status
+On branch main
+No commits yet
+
+        new file:   hello_world.txt
+
+PS C:\Users\ayust\OneDrive\デスクトップ\侍エンジニア\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 843723c] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\ayust\OneDrive\デスクトップ\侍エンジニア\git_challenge> git status
+On branch main
+PS C:\Users\ayust\OneDrive\デスクトップ\侍エンジニア\git_challenge> git add hello_world.txt
+PS C:\Users\ayust\OneDrive\デスクトップ\侍エンジニア\git_challenge> git status
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello_world.txt
+
+PS C:\Users\ayust\OneDrive\デスクトップ\侍エンジニア\git_challenge> git commit -m "日本語訳を追記"       
+[main 5ea85c4] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\ayust\OneDrive\デスクトップ\侍エンジニア\git_challenge> git status
+nothing to commit, working tree clean
+PS C:\Users\ayust\OneDrive\デスクトップ\侍エンジニア\git_challenge> git log --oneline
+5ea85c4 日本語訳を追記
 843723c hello_world.txtを追加
