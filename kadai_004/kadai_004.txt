@@ -1,0 +1,2 @@
+5ea85c4 (HEAD -> main) 日本語訳を追記
+843723c hello_world.txtを追加
